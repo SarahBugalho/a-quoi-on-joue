@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aqoj"
+version = "0.1.0"
+description = ""
+authors = ["Sarah Bugalho <bugalhosarah@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.63.0"
+pydantic = "^1.8.1"
+SQLAlchemy = "^1.4.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+ipython = "^7.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
